@@ -1,0 +1,98 @@
+[
+    {
+        "Id":1,
+        "Title":"Pride and Prejudice",
+        "Cover":"",
+        "Content":"When headstrong and independent Elizabeth Bennet, one of five sisters, is required to find a wealthy husband, her encounter with the arrogant Mr. Darcy leads to one of the most entertaining and satisfying courtships ever imagined. Beyond the romance, Pride and Prejudice is a book full of humor and wit that is also a commentary on upper-class social manners at the turn of the nineteenth century.",
+        "Author":"Jane Austen",
+        "Genre":"Fiction"
+    },
+    {
+        "Id":2,
+        "Title":"The Fellowship of the Ring",
+        "Cover":"",
+        "Content":"Frodo Baggins knew the Ringwraiths were searching for him—and the Ring of Power he bore that would enable Sauron to destroy all that was good in Middle-earth. Now it was up to Frodo and his faithful servant Sam to carry the Ring to where it could be destroyed—in the very center of Sauron's dark kingdom.",
+        "Author":"J. R. R. Tolkien",
+        "Genre":"Fantasy"
+    },
+    {
+        "Id":3,
+        "Title":"Jane Eyre",
+        "Cover":"",
+        "Content":"Jane Eyre, a penniless orphan, is engaged as governess at Thornfield Hall by the mysterious Mr Rochester. Her integrity and independence are tested to the limit as their love for each other grows, and the secrets of Mr Rochester's past are revealed.",
+        "Author":"Charlotte Brontë",
+        "Genre":"Gothic"
+    },
+    {
+        "Id":4,
+        "Title":"Harry Potter and the Sorcerer's Stone",
+        "Cover":"",
+        "Content":"Rescued from the outrageous neglect of his aunt and uncle, a young boy with a great destiny proves his worth while attending Hogwarts School for Wizards and Witches.",
+        "Author":"J. K. Rowling",
+        "Genre":"Fantasy"
+    },
+    {
+        "Id":5,
+        "Title":"To Kill a Mockingbird",
+        "Cover":"",
+        "Content":"The explosion of racial hate and violence in a small Alabama town is viewed by a little girl whose father defends a black man accused of rape.",
+        "Author":"Harper Lee",
+        "Genre":"Southern Gothic"
+    },
+    {
+        "Id":6,
+        "Title":"Animal Farm",
+        "Cover":"",
+        "Content":"One night on an English farm, Major the boar recounts his vision of a utopia where his fellow creatures own the land along with the means of production and are no longer the slaves of humans. Before long his dream comes true, and for a short while all animals really are equal. But the clever pigs educate themselves and soon learn how to extend their own power, inevitably at the expense of the rest of the community.",
+        "Author":"George Orwell",
+        "Genre":"Political satire"
+    },
+    {
+        "Id":7,
+        "Title":"The Golden Compass",
+        "Cover":"",
+        "Content":"Accompanied by her daemon, Lyra Belacqua sets out to prevent her best friend and other kidnapped children from becoming the subject of gruesome experiments in the Far North.",
+        "Author":"Philip Pullman",
+        "Genre":"Fantasy"
+    },
+    {
+        "Id":8,
+        "Title":"Great Expectations",
+        "Cover":"",
+        "Content":"The orphan, Pip, and the convict, Magwitch, the beautiful Estella, and her guardian, the embittered and vengeful Miss Havisham, the ambitious lawyer, Mr. Jaggers -- all have a part to play in the mystery.",
+        "Author":"Charles Dickens",
+        "Genre":"Bildungsroman"
+    },
+    {
+        "Id":9,
+        "Title":"Little Women",
+        "Cover":"",
+        "Content":"Chronicles the joys and sorrows of the four March sisters as they grow into young women in nineteenth-century New England.",
+        "Author":"Louisa May Alcott",
+        "Genre":"Fiction"
+    },
+    {
+        "Id":10,
+        "Title":"The Hitchhiker's Guide to the Galaxy",
+        "Cover":"",
+        "Content":"Chronicles the off-beat and occasionally extraterrestrial journeys, notions, and acquaintences of galactic traveler Arthur Dent.",
+        "Author":"Douglas Adams",
+        "Genre":"Science fiction"
+    },
+    {
+        "Id":11,
+        "Title":"Heart of Darkness",
+        "Cover":"",
+        "Content":"Dark allegory describes the narrator's journey up the Congo River and his meeting with, and fascination by, Mr. Kurtz, a mysterious personage who dominates the unruly inhabitants of the region.",
+        "Author":"Joseph Conrad",
+        "Genre":"Romance"
+    },
+    {
+        "Id":12,
+        "Title":"A Christmas Carol",
+        "Cover":"",
+        "Content":"A miser learns the true meaning of Christmas when three ghostly visitors review his past and foretell his future.",
+        "Author":"Charles Dickens",
+        "Genre":"Novella"
+    }
+]
