@@ -73,3 +73,4 @@ D:\Asp.net\LibraryRadency\api\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\Asp.net\LibraryRadency\api\bin\Debug\net7.0\System.CodeDom.dll
 D:\Asp.net\LibraryRadency\API\bin\Debug\net7.0\AutoMapper.dll
 D:\Asp.net\LibraryRadency\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Asp.net\LibraryRadency\api\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll

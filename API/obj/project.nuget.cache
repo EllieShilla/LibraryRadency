@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fLI8o6i5LEF5nCLmHUki1GqAcn2qu2AQk2XcsVECtofPcl/lKv+L4BN5vUfVttYY1QYNBKrP3TjS+xMUIAzo3w==",
+  "dgSpecHash": "vPigFI4fVdD98qS4r1cczShGRoXyaNieLAsgj2F24pJbRG+bDgIg0ohJCv/yiJxDH7W9/Mi+McQ3j5PdJLxWjw==",
   "success": true,
   "projectFilePath": "D:\\Asp.net\\LibraryRadency\\api\\API.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\38098\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\38098\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\38098\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\38098\\.nuget\\packages\\microsoft.io.recyclablememorystream\\2.3.1\\microsoft.io.recyclablememorystream.2.3.1.nupkg.sha512",
     "C:\\Users\\38098\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\38098\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\38098\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",

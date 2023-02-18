@@ -19,15 +19,11 @@ namespace Infrastructure.Data.Repositories
         public async Task<Review> SaveReviewAsync(int bookId, Review review)
         {
             var book = await _context.Books.FirstOrDefaultAsync(book => book.Id == bookId);
-            if (book != null)
-            {
-                review.BookId = bookId;
-                await _context.Reviews.AddAsync(review);
-                await _context.SaveChangesAsync();
-                return review;
-            }
 
-            return null;
+            review.BookId = bookId;
+            await _context.Reviews.AddAsync(review);
+            await _context.SaveChangesAsync();
+            return review;
         }
     }
 }

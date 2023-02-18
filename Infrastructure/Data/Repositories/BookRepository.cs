@@ -38,16 +38,11 @@ namespace Infrastructure.Data.Repositories
             }
         }
 
-        public async Task<bool> DeleteBookAsync(int id)
+        public async Task DeleteBookAsync(int id)
         {
             var book = await _context.Books.FirstOrDefaultAsync(book => book.Id == id);
-            if (book != null)
-            {
-                _context.Remove(book);
-                await _context.SaveChangesAsync();
-                return true;
-            }
-            return false;
+            _context.Remove(book);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<IReadOnlyList<Book>> GetBooksByOrderAsync(string order)

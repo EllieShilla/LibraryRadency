@@ -9,8 +9,6 @@ namespace Core.Entities
         [ForeignKey("Book")]
         public int BookId { get; set; }
         public virtual Book Book { get; set; }
-
-        [Range(1, 5, ErrorMessage = "Score can be from 1 to 5")]
         public int Score { get; set; }
     }
 }

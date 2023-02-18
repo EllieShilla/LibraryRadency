@@ -15,11 +15,11 @@ namespace API.Helpers
             CreateMap<RateDto, Rating>();
             CreateMap<Book, BasicInfoAboutBookDto>()
             .ForMember(m => m.ReviewsNumber, opt => opt.MapFrom(i => i.Reviews.Count()))
-            .ForMember(m => m.Rating, opt => opt.MapFrom(i => i.Ratings.Average(x => x.Score)));
+            .ForMember(m => m.Rating, opt => opt.MapFrom(i => i.Ratings.Select(x => x.Score).DefaultIfEmpty(0).Average()));
 
             CreateMap<Review, GetReviewDto>();
             CreateMap<Book, BasicInfoAboutBookWithReviewsDto>()
-            .ForMember(m => m.Rating, opt => opt.MapFrom(i => i.Ratings.Average(x => x.Score)));
+            .ForMember(m => m.Rating, opt => opt.MapFrom(i => i.Ratings.Select(x => x.Score).DefaultIfEmpty(0).Average()));
         }
     }
 }

@@ -404,6 +404,19 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.IO.RecyclableMemoryStream/2.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.OpenApi/1.4.3": {
         "type": "package",
         "compile": {
@@ -1522,6 +1535,28 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.IO.RecyclableMemoryStream/2.3.1": {
+      "sha512": "2ZdGH254XjWMeRHtsGqKgjk19uYh06SvTJigMjIK5s6M8GNXmCv6WdLxhNvZS+JE4A2Q37zhbAo9I0RiEjoqew==",
+      "type": "package",
+      "path": "microsoft.io.recyclablememorystream/2.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/net462/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/netcoreapp2.1/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/netcoreapp2.1/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.xml",
+        "microsoft.io.recyclablememorystream.2.3.1.nupkg.sha512",
+        "microsoft.io.recyclablememorystream.nuspec"
+      ]
+    },
     "Microsoft.OpenApi/1.4.3": {
       "sha512": "rURwggB+QZYcSVbDr7HSdhw/FELvMlriW10OeOzjPT7pstefMo7IThhtNtDudxbXhW+lj0NfX72Ka5EDsG8x6w==",
       "type": "package",
@@ -1881,6 +1916,7 @@
       "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
+      "Microsoft.IO.RecyclableMemoryStream >= 2.3.1",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -1890,11 +1926,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Asp.net\\LibraryRadency\\API\\API.csproj",
+      "projectUniqueName": "D:\\Asp.net\\LibraryRadency\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Asp.net\\LibraryRadency\\API\\API.csproj",
+      "projectPath": "D:\\Asp.net\\LibraryRadency\\api\\API.csproj",
       "packagesPath": "C:\\Users\\38098\\.nuget\\packages\\",
-      "outputPath": "D:\\Asp.net\\LibraryRadency\\API\\obj\\",
+      "outputPath": "D:\\Asp.net\\LibraryRadency\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\38098\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1940,6 +1976,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.3, )"
+          },
+          "Microsoft.IO.RecyclableMemoryStream": {
+            "target": "Package",
+            "version": "[2.3.1, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

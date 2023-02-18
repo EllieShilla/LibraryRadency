@@ -16,15 +16,10 @@ namespace Infrastructure.Data.Repositories
         {
             var book = await _context.Books.FirstOrDefaultAsync(book => book.Id == bookId);
 
-            if (book != null)
-            {
-                rating.BookId = bookId;
-                await _context.Ratings.AddAsync(rating);
-                await _context.SaveChangesAsync();
-                return rating;
-            }
-
-            return null;
+            rating.BookId = bookId;
+            await _context.Ratings.AddAsync(rating);
+            await _context.SaveChangesAsync();
+            return rating;
         }
     }
 }

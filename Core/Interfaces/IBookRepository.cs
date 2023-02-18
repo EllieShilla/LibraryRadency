@@ -9,7 +9,7 @@ namespace Core.Interfaces
     public interface IBookRepository
     {
         Task<IReadOnlyList<Book>> GetBooksByOrderAsync(string order);
-        Task<bool> DeleteBookAsync(int id);
+        Task DeleteBookAsync(int id);
         Task<Book> CreateOrUpdateBookAsync(Book book);
 
         Task<IReadOnlyList<Book>> Top10BooksAsync();

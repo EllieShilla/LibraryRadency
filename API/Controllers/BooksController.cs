@@ -1,4 +1,5 @@
 using API.Dtos;
+using API.Errors;
 using AutoMapper;
 using Core.Entities;
 using Core.Interfaces;
@@ -48,10 +49,7 @@ namespace API.Controllers
             if (!_config["SecretKeyForDelete"].Equals(secret))
                 return BadRequest("Entered the wrong key to delete");
 
-            var result = await _bookRepository.DeleteBookAsync(id);
-
-            if (result == false)
-                return BadRequest("Problem with delete book");
+            await _bookRepository.DeleteBookAsync(id);
 
             return Ok();
         }
@@ -62,9 +60,6 @@ namespace API.Controllers
             var book = _mapper.Map<BookDto, Book>(bookDto);
             var result = await _bookRepository.CreateOrUpdateBookAsync(book);
 
-            if (result == null)
-                return BadRequest("Problem with create book");
-
             return Ok(_mapper.Map<Book, IdDto>(result));
         }
 
@@ -74,9 +69,6 @@ namespace API.Controllers
             var review = _mapper.Map<SetReviewDto, Review>(reviewDto);
             var result = await _reviewRepository.SaveReviewAsync(id, review);
 
-            if (result == null)
-                return BadRequest("Problem with saving a review");
-
             return Ok(_mapper.Map<Review, IdDto>(result));
         }
 
@@ -85,9 +77,6 @@ namespace API.Controllers
         {
             var rating = _mapper.Map<RateDto, Rating>(rateDto);
             var result = await _ratingRepository.SaveRateAsync(id, rating);
-
-            if (result == null)
-                return BadRequest("Problem with score save");
 
             return Ok();
         }
