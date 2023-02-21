@@ -1160,11 +1160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Asp.net\\LibraryRadency\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\git\\LibraryRadency\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\Asp.net\\LibraryRadency\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "D:\\git\\LibraryRadency\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\38098\\.nuget\\packages\\",
-      "outputPath": "D:\\Asp.net\\LibraryRadency\\Infrastructure\\obj\\",
+      "outputPath": "D:\\git\\LibraryRadency\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\38098\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1181,8 +1181,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Asp.net\\LibraryRadency\\Core\\Core.csproj": {
-              "projectPath": "D:\\Asp.net\\LibraryRadency\\Core\\Core.csproj"
+            "D:\\git\\LibraryRadency\\Core\\Core.csproj": {
+              "projectPath": "D:\\git\\LibraryRadency\\Core\\Core.csproj"
             }
           }
         }

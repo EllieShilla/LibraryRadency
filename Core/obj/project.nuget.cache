@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ne3FEgDuSmx6eYonOn5MfdZLstriBpv5DTX5wUG+u9FwTsjP3LzLkgWAU31CcrBXhPvnox0Gz8zrdpf4BpfNrg==",
+  "dgSpecHash": "NZl8/5UdJ1WxBCCpeNTJ2W75gUR30pH2Rb6d/h0Efv/9eF6APAwv5/ZvV1VWYo8LSrXlDj3fRFzr4yNX688E5g==",
   "success": true,
-  "projectFilePath": "D:\\Asp.net\\LibraryRadency\\Core\\Core.csproj",
+  "projectFilePath": "D:\\git\\LibraryRadency\\Core\\Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

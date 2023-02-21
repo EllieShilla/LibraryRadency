@@ -155,6 +155,22 @@
           "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/7.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.3"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/7.0.3": {
         "type": "package",
         "dependencies": {
@@ -939,6 +955,20 @@
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
         "microsoft.entityframeworkcore.design.7.0.3.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/7.0.3": {
+      "sha512": "II0TxiTXwUaHYcn4qlC+GgcrkZaZdjgfHEIfWkPJe84YOVBNshdfBEkeGnVT+n70RKOj+1NyplGo9h22jVGSWA==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/7.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.7.0.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/7.0.3": {
@@ -1916,6 +1946,7 @@
       "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
+      "Microsoft.EntityFrameworkCore.InMemory >= 7.0.3",
       "Microsoft.IO.RecyclableMemoryStream >= 2.3.1",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -1926,11 +1957,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Asp.net\\LibraryRadency\\api\\API.csproj",
+      "projectUniqueName": "D:\\git\\LibraryRadency\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Asp.net\\LibraryRadency\\api\\API.csproj",
+      "projectPath": "D:\\git\\LibraryRadency\\api\\API.csproj",
       "packagesPath": "C:\\Users\\38098\\.nuget\\packages\\",
-      "outputPath": "D:\\Asp.net\\LibraryRadency\\api\\obj\\",
+      "outputPath": "D:\\git\\LibraryRadency\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\38098\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1947,8 +1978,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Asp.net\\LibraryRadency\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Asp.net\\LibraryRadency\\Infrastructure\\Infrastructure.csproj"
+            "D:\\git\\LibraryRadency\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\git\\LibraryRadency\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -1974,6 +2005,10 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.3, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[7.0.3, )"
           },

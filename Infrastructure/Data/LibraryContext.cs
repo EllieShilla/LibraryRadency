@@ -7,7 +7,6 @@ namespace Infrastructure.Data
     {
         public LibraryContext(DbContextOptions options) : base(options)
         {
-            //Database.EnsureDeleted();
             Database.EnsureCreated();
         }
 

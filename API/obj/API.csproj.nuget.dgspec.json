@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Asp.net\\LibraryRadency\\api\\API.csproj": {}
+    "D:\\git\\LibraryRadency\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\Asp.net\\LibraryRadency\\api\\API.csproj": {
+    "D:\\git\\LibraryRadency\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Asp.net\\LibraryRadency\\api\\API.csproj",
+        "projectUniqueName": "D:\\git\\LibraryRadency\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Asp.net\\LibraryRadency\\api\\API.csproj",
+        "projectPath": "D:\\git\\LibraryRadency\\api\\API.csproj",
         "packagesPath": "C:\\Users\\38098\\.nuget\\packages\\",
-        "outputPath": "D:\\Asp.net\\LibraryRadency\\api\\obj\\",
+        "outputPath": "D:\\git\\LibraryRadency\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\38098\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Asp.net\\LibraryRadency\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Asp.net\\LibraryRadency\\Infrastructure\\Infrastructure.csproj"
+              "D:\\git\\LibraryRadency\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\git\\LibraryRadency\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -55,6 +55,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[7.0.3, )"
             },
@@ -90,14 +94,14 @@
         }
       }
     },
-    "D:\\Asp.net\\LibraryRadency\\Core\\Core.csproj": {
+    "D:\\git\\LibraryRadency\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Asp.net\\LibraryRadency\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\git\\LibraryRadency\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Asp.net\\LibraryRadency\\Core\\Core.csproj",
+        "projectPath": "D:\\git\\LibraryRadency\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\38098\\.nuget\\packages\\",
-        "outputPath": "D:\\Asp.net\\LibraryRadency\\Core\\obj\\",
+        "outputPath": "D:\\git\\LibraryRadency\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\38098\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -145,14 +149,14 @@
         }
       }
     },
-    "D:\\Asp.net\\LibraryRadency\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\git\\LibraryRadency\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Asp.net\\LibraryRadency\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\git\\LibraryRadency\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Asp.net\\LibraryRadency\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\git\\LibraryRadency\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\38098\\.nuget\\packages\\",
-        "outputPath": "D:\\Asp.net\\LibraryRadency\\Infrastructure\\obj\\",
+        "outputPath": "D:\\git\\LibraryRadency\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\38098\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -169,8 +173,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Asp.net\\LibraryRadency\\Core\\Core.csproj": {
-                "projectPath": "D:\\Asp.net\\LibraryRadency\\Core\\Core.csproj"
+              "D:\\git\\LibraryRadency\\Core\\Core.csproj": {
+                "projectPath": "D:\\git\\LibraryRadency\\Core\\Core.csproj"
               }
             }
           }
